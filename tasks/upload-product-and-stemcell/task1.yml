@@ -21,4 +21,4 @@ inputs:
   - name: pcf-pipelines
 
 run:
-  path: ls
+  path: pwd
