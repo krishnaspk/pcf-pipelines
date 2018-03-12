@@ -21,4 +21,4 @@ inputs:
   - name: pcf-pipelines
 
 run:
-  path: pcf-pipelines/tasks/upload-product-and-stemcell/test2.sh
+  path: ls
