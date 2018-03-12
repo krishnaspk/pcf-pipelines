@@ -21,4 +21,5 @@ inputs:
   - name: pcf-pipelines
 
 run:
-  path: pwd
+  path: ls
+  args: [`-alR`]
