@@ -1,2 +1,2 @@
 echo "test"
-cf
+cf help -a
