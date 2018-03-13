@@ -1,2 +1,2 @@
 echo "test"
-cf help -a
+cf help create-user
