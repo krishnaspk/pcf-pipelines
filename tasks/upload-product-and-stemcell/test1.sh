@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #Declared New Test Org,Space,User & Quota details
-export CF_New_Org="test-sample-org"
-export CF_New_Space="test-sample-space"
-export CF_New_User="testsampusr"
-export CF_New_Quota="test-samp-org-quota"
-export CF_New_Space_Quota="test-samp-space-quota"
+export CF_New_Org=test-sample-org
+export CF_New_Space=test-sample-space
+export CF_New_User=testsampusr
+export CF_New_Quota=test-samp-org-quota
+export CF_New_Space_Quota=test-samp-space-quota
 # Generate a password.
 export CF_New_USER_PASS=`openssl rand -base64 15`
 # CF Login
