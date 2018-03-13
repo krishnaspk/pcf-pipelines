@@ -12,7 +12,7 @@ cf login -a "${CF_API}" -u "${CF_USERNAME}" -p "${CF_PASSWORD}" -o "${CF_ORG}" -
 
 echo -e "login to PCF Eco system successful using $CF_USERNAME\n\n"
 
-cf create-user $CF_New_User $CF_New_USER_PASS # internal user
+cf create-user $CF_New_User $CF_New_PWD # internal user
 echo -e "New user created for Org $CF_New_Org\n\n" 
 echo -e "S.No   Task    Status\n\n" 
 echo -e "1.     CreateUser      Success\n\n" 
