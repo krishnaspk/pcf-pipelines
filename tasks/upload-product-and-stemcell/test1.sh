@@ -17,7 +17,7 @@ echo -e "New user created for Org $CF_New_Org\n\n"
 echo -e "S.No   Task    Status\n\n" 
 echo -e "1.     CreateUser      Success\n\n" 
 
-cf create-org ${CF_New_Org}
+cf create-org $CF_New_Org
 echo -e "New org $CF_New_Org is created\n\n" 
 echo -e "2.     CreateOrg       Success\n\n" 
 
