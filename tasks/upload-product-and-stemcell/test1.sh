@@ -1,2 +1,2 @@
 echo "test"
-cf help create-user
+cf help set-org-role
