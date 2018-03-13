@@ -10,7 +10,7 @@ export CF_New_Space_Quota=test-samp-space-quota
 export CF_New_USER_PASS=`openssl rand -base64 15`
 # CF Login
 #cf api "${CF_API}"
-cf login -a "${CF_API}" -u "${CF_USERNAME}" -p "${CF_PASSWORD}" -o "${CF_ORG}" -s "${CF_SPACE}"
+cf login -a "${CF_API}" -u "${CF_USERNAME}" -p "${CF_PASSWORD}" -o "${CF_ORG}" -s system
 #cf target -o "${CF_ORG}" -s "${CF_SPACE}"
 echo -e "login to PCF Eco system successful using $CF_USERNAME\n\n"
 #Create User
