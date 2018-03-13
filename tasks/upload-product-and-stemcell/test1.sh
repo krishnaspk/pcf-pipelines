@@ -5,11 +5,11 @@
 #export CF_New_User=testusr1
 #export CF_New_Quota=test-samp-org-quota
 #export CF_New_Space_Quota=test-samp-space-quota
-
+export CFspace=$CF_SPACE
 #export CF_New_USER_PASS=`openssl rand -base64 15`
 echo "$CF_New_Org , $CF_New_Space , $CF_New_User , $CF_New_Quota , $CF_New_Space_Quota , $CF_ORG"
 cf login -a "${CF_API}" -u "${CF_USERNAME}" -p "${CF_PASSWORD}" -o "${CF_ORG}" -s system
-cf target -s $CF_SPACE
+cf target -s $CFspace
 echo -e "login to PCF Eco system successful using $CF_USERNAME\n\n"
 
 cf create-user $CF_New_User $CF_New_PWD # internal user
