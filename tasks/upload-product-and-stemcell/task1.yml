@@ -22,4 +22,4 @@ inputs:
 
 run:
   path: bash
-  args: [./pcf-pipelines/tasks/upload-product-and-stemcell/test1.sh]
+  args: [pcf-pipelines/tasks/upload-product-and-stemcell/test1.sh]
