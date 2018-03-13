@@ -13,17 +13,3 @@ cf help -a
 cf target -s system
 echo "$CFspace"
 echo -e "login to PCF Eco system successful using $CF_USERNAME\n\n"
-
-cf create-user $CF_New_User $CF_New_PWD # internal user
-echo -e "New user created for Org $CF_New_Org\n\n" 
-echo -e "S.No   Task    Status\n\n" 
-echo -e "1.     CreateUser      Success\n\n" 
-
-cf create-org $CF_New_Org
-echo -e "New org $CF_New_Org is created\n\n" 
-echo -e "2.     CreateOrg       Success\n\n" 
-
-cf target -o $CF_New_Org
-cf create-space $CF_New_Space
-echo -e "New space $CF_New_Space is created\n\n" 
-echo -e "3.     CreateSpace     Success\n\n"
