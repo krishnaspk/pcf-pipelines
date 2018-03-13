@@ -1,2 +1,2 @@
 echo "test"
-pwd
+cf --help
