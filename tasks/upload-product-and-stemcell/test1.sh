@@ -9,8 +9,7 @@ export CFspace=$CF_SPACE
 cf help create-user
 #export CF_New_USER_PASS=`openssl rand -base64 15`
 echo "$CF_New_Org , $CF_New_Space , $CF_New_User , $CF_New_Quota , $CF_New_Space_Quota , $CF_ORG"
-#cf login -a "${CF_API}" -u "${CF_USERNAME}" -p "${CF_PASSWORD}" -o "${CF_ORG}" -s Demo
-cf login -a api.syslab.pcflabcog.com -u admin -p HZ-h6Uy1VFRZ1f7e3-Ba2S_-Axqq8JbP 
+#cf login -a "${CF_API}" -u "${CF_USERNAME}" -p "${CF_PASSWORD}" -o "${CF_ORG}"
 cf target -o Demo -s Demo
 echo "$CFspace"
 echo -e "login to PCF Eco system successful using $CF_USERNAME\n\n"
